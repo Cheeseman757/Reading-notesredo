@@ -1,1 +1,26 @@
+Reading 11
+Explain how the ability to use video and audio on the web has evolved since the early 2000s.
+•	Initially, embedding video and audio required third-party plugins like Flash. With HTML5, introduced in the late 2000s, the <video> and <audio> elements were added, allowing direct embedding into web pages without plugins. This advancement simplified multimedia integration, improved accessibility, and ensured compatibility across different devices and browsers.
+Describe the use of the src and controls attributes in the <video> element.
+•	The src attribute specifies the path to the video file you want to embed. The controls attribute, when added to the <video> tag, provides the user with playback controls, such as play, pause, and volume control, directly in the browser.
+Why is it important to have fallback content inside the <video> element?
+•	Fallback content inside the <video> element is displayed if the browser does not support the video format or cannot play the video for any reason. This ensures that a message or alternative content (like a link to download the video) can be accessed by the user, improving accessibility and user experience.
+Write a very short story where <audio> and <video> are characters.
+•	In a digital land called Media, two heroes, <audio> and <video>, embarked on a quest to bring stories to life. <audio>, with her power to convey emotions through sound, filled the air with melodies and tales. <video>, with his ability to weave pictures and motion, painted scenes of far-off places and dramatic events. Together, they transformed the way stories were told, making them more immersive and engaging for everyone in Media.
+How does Grid layout differ from Flex?
+•	Grid layout is designed for two-dimensional layouts, managing both columns and rows simultaneously, which is ideal for complex page layouts. Flex layout is designed for one-dimensional layouts, either in a row or a column, making it better suited for aligning content within a container or for simpler layouts that require a single axis alignment.
+Grid container, grid item, and grid line are a few important terms to understand when using Grid. Please describe these terms in a few sentences.
+•	Grid container: The element on which display: grid is applied. It serves as the parent container for grid items.
+•	Grid item: Any direct child of a grid container. These items participate in the grid layout.
+•	Grid line: The dividing lines that make up the structure of the grid. They can be either vertical or horizontal, defining the columns and rows.
+Besides making a site visually appealing across different screen sizes, why should developers make images responsive?
+•	Making images responsive also improves load times on smaller devices by ensuring that images are not larger than necessary, conserves data usage for users on limited data plans, and enhances the overall user experience by providing images at the appropriate resolution for every screen.
+Define the following <img> attributes srcset and sizes. Write an example of how they are used.
+•	srcset allows you to specify a list of image sources for different screen resolutions. sizes defines a set of media conditions (e.g., screen widths) and indicates which image size would be best to choose from the srcset when the condition is true.
+•	Example:
+htmlCopy code
+<img srcset="image-320w.jpg 320w, image-480w.jpg 480w, image-800w.jpg 800w" sizes="(max-width: 320px) 280px, (max-width: 480px) 440px, 800px" src="image-800w.jpg" alt="Example image"> 
+•	This code tells the browser to load different images based on the screen's width, optimizing the image's display and load performance across devices.
+How is srcset more helpful for responsive images than CSS or JavaScript?
+•	srcset is more efficient because it allows the browser to select the most appropriate image size before downloading, reducing bandwidth and improving loading times. Unlike CSS or JavaScript, which might require downloading multiple images or processing to determine the best image, srcset does this natively at the HTML level, optimizing performance and resource usage.
 
