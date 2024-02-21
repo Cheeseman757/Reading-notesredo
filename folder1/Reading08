@@ -1,1 +1,12 @@
+Reading 08
+Flexbox is designed for one-dimensional content. Explain what this means.
+•	Being designed for one-dimensional content means Flexbox is optimized for layouts in either a row or a column, but not both simultaneously. It excels at aligning and distributing space among items in a single direction, either horizontally or vertically.
+Explain the difference between the main axis and cross axis.
+•	The main axis in Flexbox is the primary axis along which flex items are laid out. It can be horizontal (if the flex-direction is row) or vertical (if the flex-direction is column). The cross axis is perpendicular to the main axis, so it runs vertically in a row layout and horizontally in a column layout.
+How can using certain properties of flexbox negatively impact accessibility?
+•	Using Flexbox properties to reorder content visually can lead to a mismatch between the visual presentation and the DOM order. This can confuse screen reader users as the tab order and screen reader reading order might not match the visual order, potentially leading to a poor user experience.
+What are some advantages of using flexbox over float?
+•	Flexbox provides a more efficient way to lay out, align, and distribute space among items in a container, even when their size is unknown or dynamic. It eliminates the need for clearfix hacks, enables vertical centering, and can handle changes in screen size and layout without the need for media queries. Flexbox layouts are also easier to maintain and more predictable compared to float-based layouts.
+How does this topic connect with your long term goals?
+•	Learning and mastering Flexbox is crucial for developing responsive, accessible, and modern web designs. It aligns with long-term goals of becoming a proficient front-end developer, as understanding CSS layouts, including Flexbox, is essential for creating user-friendly and adaptable web applications.
 
