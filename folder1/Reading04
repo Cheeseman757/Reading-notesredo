@@ -1,1 +1,42 @@
+Read 04
+
+Learn HTML: Creating Hyperlinks
+To create a basic link, we wrap text or other content inside what element?
+•	To create a basic link, we wrap text or other content inside an <a> element.
+
+The href attribute contains what information?
+•	The href attribute contains the URL or web address the link points to.
+
+
+What are some ways we can ensure links on our pages are accessible to all readers?
+•	Use clear and descriptive link text, ensure links are keyboard navigable, and use aria-labels for links without descriptive text.
+
+
+CSS Layout
+What is meant by “normal flow”?
+•	"Normal flow" refers to the default layout mechanism where block-level elements appear on a new line below the preceding element, and inline elements sit next to each other on the same line.
+
+What are a few differences between block-level and inline elements?
+•	Block-level elements consume the full width available, stacking vertically. Inline elements only take up as much width as necessary and lay out horizontally alongside other elements.
+
+___ positioning is the default for every HTML element.
+•	Static positioning is the default for every HTML element.
+•	
+Name a few advantages to using absolute positioning on an element.
+•	Absolute positioning allows precise placement of an element, overlapping content if necessary, and it's removed from the normal document flow, not affecting the layout of other elements.
+
+What is a key difference between fixed positioning and absolute positioning?
+•	Fixed positioning keeps an element in the same spot in the viewport regardless of scrolling, while absolute positioning places an element relative to its nearest positioned ancestor or to the 
+document body.
+
+Learn JS: Functions – Reusable Blocks of Code
+Describe the difference between a function declaration and a function invocation.
+•	A function declaration defines a function, specifying its name, parameters, and the code it runs. A function invocation (or call) executes the function, with the code inside the function running at the call site.
+What is the difference between a parameter and an argument?
+•	A parameter is a variable listed as part of a function's definition. An argument is the actual value passed to the function when it is invoked.
+
+Miscellaneous: 6 Reasons for Pair Programming
+Pick 2 benefits to pair programming and reflect on how these benefits could help you on your coding journey.
+1.	Improved Code Quality: Pair programming encourages review and discussion, leading to fewer mistakes and higher quality code.
+2.	Enhanced Learning and Collaboration: Working with a partner can expose me to new strategies and problem-solving approaches
 
