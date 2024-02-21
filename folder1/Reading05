@@ -1,1 +1,38 @@
+Read 05
+HTML Media: Using Images In HTML
+What is a real world use case for the alt attribute being used in a website?
+
+The alt attribute provides a textual description of an image for visually impaired users using screen readers, enhancing accessibility. For example, if an image does not load, the alt text will be displayed as a placeholder.
+How can you improve accessibility of images in an HTML document?
+
+Use the alt attribute to provide descriptive text for images, use appropriate image formats for fast loading, and ensure images used as links have descriptive alt texts.
+Provide an example of when the figure element would be useful in an HTML document.
+
+The <figure> element is useful when you want to include an image, diagram, or illustration along with a caption (<figcaption>) in your document, such as including a graph in a scientific article with a caption explaining it.
+Describe the difference between a gif image and an svg image, pretend you are explaining to an elder in your community.
+
+Imagine a GIF as a flipbook animation made from a sequence of hand-drawn pictures. It can show simple animations but is made of pixels, so it might look blurry if stretched. An SVG is more like a piece of art drawn with mathematical lines and shapes. You can zoom in as much as you want, and it will always look smooth and clear, perfect for logos and icons.
+What image type would you use to display a screenshot on your website and why?
+
+I would use a PNG image to display a screenshot because PNGs support a wide range of colors and provide good quality with lossless compression, making the screenshot clear and detailed.
+Learn CSS: Using Color in CSS, Styling HTML Text Elements
+Describe the difference between foreground and background colors of an HTML element, pretend you are talking to someone with no technical knowledge.
+
+Imagine your text as a drawing on a piece of paper. The foreground color is the color of the drawing itself (the text), while the background color is like the color of the paper behind the drawing. So, if you're reading a book, the text color is the foreground, and the page color is the background.
+Your friend asks you to give his colorless blog website a touch up. How would you use color to give his blog some character?
+
+I'd start by adding a soothing or engaging background color that complements the content. Then, I'd choose a contrasting color for the text (foreground color) to ensure readability. Highlighting titles and links with different, eye-catching colors would also make the blog more engaging and navigable.
+What should you consider when choosing fonts for an HTML document?
+
+Consider readability, the mood or tone you want to convey, compatibility with different devices and browsers, and whether the font supports all the characters and symbols you need.
+What do font-size, font-weight, and font-style do to HTML text elements?
+
+font-size changes the size of the text.
+font-weight controls the thickness of the text, making it bolder or lighter.
+font-style can make the text italicized, normal, or oblique.
+
+Describe two ways you could add spacing around the characters displayed in an h1 element.
+Use the letter-spacing CSS property to increase or decrease the space between characters.
+Use the margin or padding CSS properties to add space around the entire <h1> element, affecting its overall presence on the page rather than the spacing between individual characters.
+
 
