@@ -1,1 +1,43 @@
+Read 03 
+Reading: Learn HTML
+
+When should you use an unordered list in your HTML document?
+•	Use an unordered list (<ul>) when the order of the list items does not matter.
+
+How do you change the bullet style of unordered list items?
+•	Change the bullet style of unordered list items using the CSS list-style-type property.
+
+When should you use an ordered list vs an unordered list in your HTML document?
+•	Use an ordered list (<ol>) when the sequence of the items is important. Use an unordered list (<ul>) when the sequence does not matter.
+
+Describe two ways you can change the numbers on list items provided by an ordered list?
+•	Use the start attribute on the <ol> tag to specify the starting number.
+•	Use the CSS list-style-type property to change the numbering style (e.g., Roman numerals, alphabetical).
+Learn CSS: The Box Model
+Describe the CSS properties of margin and padding as characters in a story titled: “The Box Model”?
+•	In the story of "The Box Model," Margin is the open space that surrounds the box, ensuring it has room to breathe away from other elements. Padding is the cushion inside the box, keeping its content comfortable and away from the edges.
+List and describe the four parts of an HTML element's box as referred to by the box model.
+1.	Content: The actual content of the box, where text and images appear.
+2.	Padding: The space between the content and the border.
+3.	Border: The solid line that surrounds the padding (if any) and content.
+4.	Margin: The space outside the border, separating the box from other elements.
+Learn JS: Arrays, Operators and Expressions, Conditionals, Loops
+What data types can you store inside of an Array?
+•	You can store any data type inside of an Array, including numbers, strings, objects, functions, and even other arrays.
+Is the people array a valid JavaScript array? If so, how can I access the values stored? If not, why?
+•	Yes, the people array is a valid JavaScript array containing arrays as its elements. Access values using index notation
+List five shorthand operators for assignment in JavaScript and describe what they do.
+1.	+= (addition assignment) - Adds the right operand to the left operand and assigns the result to the left operand.
+2.	-= (subtraction assignment) - Subtracts the right operand from the left operand and assigns the result to the left operand.
+3.	*= (multiplication assignment) - Multiplies the left operand by the right operand and assigns the result to the left operand.
+4.	/= (division assignment) - Divides the left operand by the right operand and assigns the result to the left operand.
+5.	%= (modulus assignment) - Takes the modulus using two operands and assigns the result to the left operand.
+Read the code below and evaluate the last expression and explain what the result would be and why.
+javascriptCopy code
+let a = 10; let b = 'dog'; let c = false; // evaluate this (a + c) + b; 
+•	The result will be "10dog". a + c is evaluated first, with c (false) being coerced to 0, resulting in 10 + 0. Then, this result is concatenated with b ('dog'), resulting in the string "10dog".
+Describe a real-world example of when a conditional statement should be used in a JavaScript program.
+•	A conditional statement can be used to check if a user is logged in before showing them a personalized dashboard page. If the user is not logged in, the program could redirect them to the login page.
+Give an example of when a Loop is useful in JavaScript.
+•	A loop is useful for processing items in a shopping cart, where you might need to calculate the total price of all items by iterating over each item in the cart and summing their price
 
