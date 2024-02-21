@@ -7,6 +7,7 @@ This website is a collection of my reading notes from various software developme
 - Understanding JavaScript
 
 ## Code 201 - Foundations of Software Development
+[Code 201 - Foundations of Software Development](code201.md)
 - Deep dive into HTML and CSS
 - Advanced JavaScript topics
 - Introduction to Git and GitHub
