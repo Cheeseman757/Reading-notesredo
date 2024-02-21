@@ -1,1 +1,46 @@
+Read 02
+1.	Why is it important to use semantic elements in our HTML?
+Using semantic elements in HTML is crucial because they provide meaning to the web content, making it understandable to both browsers and developers.
+2.	How many levels of headings are there in HTML?
+HTML offers six levels of headings
+3.	What are some uses for the <sup> and <sub> elements?
+The <sup? element is used to display superscript text, commonly used for footnotes or The <sub> element is used for subscript text, commonly found in mathematical or scientific formulas
+4.	When using the <abbr> element, what attribute must be added to provide the full expansion of the term?
+When using the <abbr> element to denote an abbreviation, you must add the title attribute to provide the full expansion of the term. This ensures that when users hover over the abbreviation, they can see its full form.
+Learn CSS.
+1.	What are ways we can apply CSS to our HTML?
+Inline styles: Directly in the HTML elements using the style attribute.
+Internal (Embedded) CSS: Within a <style> tag in the HTML document's <head> section.
+External CSS: By linking an external CSS file to the HTML document with the <link> tag.
+2.	Why should we avoid using inline styles?
+Inline styles should be avoided because they mix content with presentation, making the code harder to read and maintain. They also have the highest specificity, potentially overriding CSS rules defined elsewhere
+3.	What is representing the selector?
+h2 is the selector, targeting all <h2> elements.
+Which components are the CSS declarations?
+The CSS declarations are color: black; and padding: 5px;.
+
+Which components are considered properties?
+The properties are color and padding.
+4.	What data type is a sequence of text enclosed in single quote marks?
+The data type is String.
+5.	List 4 types of JavaScript operators.
+Arithmetic operators (+, -, *, /)
+Assignment operators (=, +=, -=)
+Comparison operators (==, !=, ===, !==)
+Logical operators (&&, ||, !)
+6.	Describe a real-world problem you could solve with a function.
+A function can calculate the total cost of items in a shopping cart, including adding up item   prices, applying any discounts, calculating tax, and returning the total amount payable.
+
+Making Decisions In Your Code – Conditionals.
+1.	An if statement checks a __ and if it evaluates to ___, then the code block will execute.
+Condition, true
+2.	What is the use of an else if?
+The use of an else if is to provide an alternative condition to be checked if the initial if condition is false, allowing for multiple conditional paths in the code.
+3.	List 3 different types of comparison operators.
+== (equal to)
+> (greater than)
+<= (less than or equal to)
+4.	What is the difference between the logical operator && and ||?
+&& requires all conditions to be true for the overall expression to be true.
+|| requires only one of the conditions to be true for the overall expression to be true.
 
