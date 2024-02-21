@@ -1,1 +1,22 @@
+Read 06
+JavaScript Object Basics
+How would you describe an object to a non-technical friend you grew up with?
+•	Imagine an object as a backpack that can hold various items. Each item has a name tag (property name) and an item itself (value). Just like you can have different types of items in a backpack, in programming, an object can hold information of various types, like numbers, texts, or even functions.
+
+What are some advantages to creating object literals?
+•	Object literals provide a straightforward way to create packaged data, making it easy to organize and access related information. They allow you to group properties and methods in a single, manageable entity, improving code readability and structure.
+How do objects differ from arrays?
+•	Objects store data in key-value pairs where each value can be accessed by a unique key, whereas arrays store data in an ordered list where each value is accessed by its numerical index. Objects are used for storing non-ordered data with named properties, and arrays are used for storing ordered collections of items.
+Give an example for when you would need to use bracket notation to access an object’s property instead of dot notation.
+•	You need to use bracket notation when the property name is stored in a variable or if the property name includes characters that are not valid with dot notation, such as spaces, or when it's dynamically determined (like from user input). For example, object["first name"] if the property name is "first name".
+Evaluate the code below. What does the term this refer to and what is the advantage to using this?
+javascriptCopy code
+const dog = { name: 'Spot', age: 2, color: 'white with black spots', humanAge: function (){ console.log(`${this.name} is ${this.age*7} in human years`); } } 
+•	In this context, this refers to the dog object itself. The advantage of using this is that it allows you to access other properties and methods within the same object, making your code more adaptable and easier to maintain.
+Introduction To The DOM
+What is the DOM?
+•	The DOM (Document Object Model) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as a tree of nodes and objects, making the web page accessible and manipulable via JavaScript.
+Briefly describe the relationship between the DOM and JavaScript.
+•	JavaScript uses the DOM to interact with the web page. It can read and change the DOM, which allows JavaScript to add, modify, or delete HTML elements and attributes, change styles, listen to and trigger events, etc. Essentially, the DOM is the bridge that lets JavaScript interact with the content and structure of a web page
+
 
