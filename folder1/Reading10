@@ -1,1 +1,17 @@
+Reading 10
+
+Name some key differences between a Syntax Error and a Logic Error.
+•	A Syntax Error occurs when the code does not follow the rules of the programming language, making it impossible for the compiler or interpreter to understand it. This can include misspelling keywords or incorrect use of punctuation. Logic Errors, on the other hand, occur when the syntax is correct but the code does not perform as expected or intended. These errors do not produce error messages and are often harder to debug since the program runs but produces incorrect results.
+List a few types of errors that you have encountered in past lab assignments and explain how you were able to correct them.
+1.	ReferenceError: This occurred when I tried to use a variable that was not declared. I corrected it by ensuring all variables were properly declared before use.
+2.	TypeError: I encountered this when attempting to call a method on a data type not supporting the method. Correcting it involved checking the data types being manipulated and ensuring operations were valid.
+3.	SyntaxError: Caused by missing a bracket or parenthesis, it was fixed by carefully reviewing the code for proper syntax according to JavaScript rules.
+How will this topic continue to influence your long term goals?
+•	Understanding how to troubleshoot JavaScript errors is crucial for developing robust and error-free applications. It will enable me to write more reliable code, reduce debugging time, and improve my problem-solving skills, all of which are essential for my goal of becoming a proficient software developer.
+How would you describe the JavaScript Debugger tool and how it works to someone just starting out in software development?
+•	The JavaScript Debugger tool is like a magnifying glass that lets you closely inspect what’s happening inside your JavaScript code as it runs. You can pause the execution of your code at specific points, examine the values of variables at those points, and step through your code line by line to see exactly how it executes. This makes it easier to find and fix errors by letting you see the inner workings of your code in real-time.
+Define what a breakpoint is.
+•	A breakpoint is a marker that you can set on a line of code which tells the debugger to pause the execution of your program when it reaches that line. This allows you to examine the current state of your program, such as the values of variables, to help find and solve issues.
+What is the call stack?
+•	The call stack is a record of the function calls that your program has made so far. When a function is called, it’s added to the stack, and when the function completes, it’s removed from the stack. This helps you trace the sequence of function calls that led to the current point in execution, which is particularly useful for debugging recursive functions and understanding the flow of your program.
 
