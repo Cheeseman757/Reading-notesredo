@@ -1,1 +1,74 @@
+Reading 01
+
+Compose a short poem describing how HTTP sends data between computers.
+
+Across the digital waves, HTTP takes flight,
+Connecting browsers and servers, through the night.
+Requests and responses, in a dance so fine,
+Binding the web in a line, where data intertwines.
+
+Describe how HTML, CSS, and JS files are “parsed” in the browser.
+When a browser loads a webpage, it parses HTML, CSS, and JS files in different stages:
+
+HTML Parsing: The browser reads the HTML file and constructs the DOM (Document Object Model) tree. HTML tags are turned into nodes in the DOM tree, representing the structure of the webpage.
+CSS Parsing: CSS files are parsed to understand how to style the HTML elements. The styles are applied according to the selectors and properties defined in the CSS. This process results in the construction of the CSSOM (CSS Object Model).
+JS Parsing: JavaScript files are parsed and executed by the browser's JavaScript engine. JS can manipulate the DOM and CSSOM, allowing for dynamic content and interactive features. JS execution can be synchronous or asynchronous, affecting how and when parts of the page are displayed and behave.
+How can you find images to add to a Website?
+Use stock photo websites (e.g., Unsplash, Pixabay) for free and premium images.
+Utilize Creative Commons-licensed images that fit your needs, available on platforms like Flickr or Wikimedia Commons.
+Purchase images from professional photographers or stock image services to ensure high quality and uniqueness.
+How do you create a String vs a Number in JavaScript?
+String: Created by enclosing text within quotes. Example: let greeting = "Hello, world!";
+Number: Created by simply writing a number without quotes. Example: let year = 2021;
+What is a Variable and why are they important in JavaScript?
+A variable in JavaScript is a symbolic name associated with a value. Variables are important because they allow programmers to store data that can be manipulated and retrieved throughout the program, making the code dynamic and reusable.
+
+Introduction to HTML
+HTML (Hypertext Markup Language) is the standard markup language used to create web pages. It provides the structure of a webpage, allowing for the insertion of text, links, images, and other content.
+
+What is an HTML attribute?
+An HTML attribute provides additional information about an element. Attributes are placed within an element's start tag and are made up of a name and a value pair, for example, src="image.png" in an <img> tag to specify the path to an image file.
+
+Describe the Anatomy of an HTML element.
+An HTML element consists of:
+
+A start tag with the element name and possibly attributes.
+The content of the element.
+An end tag with the element name preceded by a slash.
+Example: <p>This is a paragraph.</p>
+
+What is the Difference between <article> and <section> element tags?
+<article> is meant for self-contained content that could be distributed independently of the rest of the site, like a blog post.
+<section> is used to group related content, not necessarily independent enough to be considered an article.
+What Elements does a “typical” website include?
+A typical website might include:
+
+Navigation bar
+Header
+Main content area with articles or sections
+Sidebar with additional links or information
+Footer with copyright and contact info
+How does metadata influence Search Engine Optimization?
+Metadata provides search engines with information about a webpage's content, relevance, and importance. Well-crafted metadata (like titles, descriptions, and keywords) can improve a site's SEO, helping it rank higher in search results.
+
+How is the <meta> HTML tag used when specifying metadata?
+The <meta> tag is used within the <head> section of an HTML document to specify metadata such as character set, page description, keywords, author of the document, and viewport settings. It's not displayed on the page but is used by browsers and search engines.
+
+How to start to design a Website
+First step: Determine the purpose and goals of the website. Understand what you aim to achieve and who your target audience is.
+
+Most important question: "Who is my target audience?" Knowing your audience shapes the design, content, and functionality of your site.
+
+Semantics
+Using an <h1> element over a <span> for a top-level heading is important because it provides semantic meaning, indicating that the text is a primary heading of the page, which aids in SEO and accessibility.
+
+Benefits of using semantic tags in our HTML
+Semantic tags improve accessibility, making it easier for screen readers and assistive technologies to navigate the content. They also contribute to better SEO, as they give search engines clear signals about the structure and content of the page.
+
+What is JavaScript?
+JavaScript is a programming language that enables interactive web pages. It is an essential part of web applications, allowing for dynamic content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc.
+
+Describe 2 things that require JavaScript in the Browser
+Form Validation: Checking user input for errors before submitting it to a server.
+Dynamic Content Loading: Updating parts of a webpage with new data without reloading the entire page
 
