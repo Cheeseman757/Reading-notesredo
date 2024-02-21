@@ -1,1 +1,22 @@
+Reading 12
+
+What does the <canvas> allow a developer to achieve?
+•	The <canvas> element allows a developer to draw graphics on a web page via scripting (usually JavaScript). This includes rendering shapes, creating animations, generating graphically rich interactive games, and processing and displaying images.
+What is the importance of the closing </canvas> tag?
+•	The closing </canvas> tag is crucial because it marks the end of the canvas element in the HTML document. Unlike self-closing tags, the <canvas> element can contain fallback content for older browsers that do not support it, and this content is placed between the opening <canvas> and the closing </canvas> tags.
+
+
+Explain what the getContext() method does.
+•	The getContext() method is called on a <canvas> element to obtain the rendering context and its drawing functions. It takes one argument, the context type. For example, getContext('2d') returns a 2D rendering context, which is used for drawing shapes, text, images, and other objects.
+What is Chart.js and how it can be brought into your project?
+•	Chart.js is a lightweight and simple-to-use JavaScript library that allows you to create responsive and customizable charts and graphs. It can be brought into your project by including its script file in your HTML document, either by downloading and hosting the Chart.js library yourself or by including a link to a CDN (Content Delivery Network) that hosts the library.
+List 3 different Chart types you can create using Chart.js.
+1.	Line charts
+2.	Bar charts
+3.	Pie charts
+What are some advantages to displaying data via a chart over a table?
+•	Charts provide a visual representation of data, making it easier to see trends, patterns, and outliers. They can convey information quickly and are more engaging for the viewer, helping to simplify complex data and make comparisons more apparent than in tables.
+How could Chart.js aid your previously created applications visually?
+•	Chart.js could enhance previously created applications by adding visually appealing and interactive charts, improving data presentation, and making it easier for users to understand and interact with the data. This could be particularly useful in applications dealing with statistics, analytics, financial data, or any application that benefits from graphical data representation.
+
 
